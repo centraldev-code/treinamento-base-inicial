@@ -1,0 +1,44 @@
+body {
+    background-color: #555252;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo
+{
+background-color:#ebf6f9;
+height:530px;
+width:430px;
+margin-top: 200px;
+padding: 0;
+align-items: start;
+}
+
+.barraTitulo {
+    background-color: #E0E5E7;
+    height: 32px;
+}
+.barraTitulo p {
+    font-size: 12px;
+    color: #171717;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.display {
+    background-color: aqua;
+    height: 90px;
+}
+
+.teclado {
+    background-color: red;
+    height: 410px;
+
+}
