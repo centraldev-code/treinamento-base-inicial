@@ -1,0 +1,29 @@
+/* Style identificado ou nomeado  id="principal" */
+#principal {
+    color: blue;
+}
+/* Style * é aplicado a todas as tags (geral) 
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+/* Style das tags em HTML  */
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+/* Style identificado ou nomeado  class="test" */
+.test {
+    color: blueviolet;
+}
+.barraTitulo {
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+}
+
+.barraTitulo div {
+    text-align: center;
+}
