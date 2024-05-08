@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        body {
+            background-color: #c9c9c9;
+        }
+        .container {
+            background-color: blueviolet;
+            width: 600px;
+            height: 600px;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            align-items: end;
+            justify-content: end;
+        }
+        .itens {
+            background-color: red;
+            margin: 2px;
+            padding: 50px;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container" id="containerFlex">
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+    </div>
+    <button onclick="AddItens()">Adicionar Item</button>
+
+
+    <script>
+        const container = document.getElementById('containerFlex')
+        function AddItens() {
+            container.innerHTML += '<div class="itens">0</div>'
+        }
+    </script>
+</body>
+</html>
